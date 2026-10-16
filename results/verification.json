@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checkpoint_test_metrics_recomputed": 12,
+  "test_prediction_arrays_exactly_matched": 12,
+  "selected_epochs_verified": 12,
+  "training_history_rows": 216,
+  "samples_count_and_length_verified": 72,
+  "saved_generations_exactly_reproduced": 4,
+  "training_source_hashes_verified": 7
+}

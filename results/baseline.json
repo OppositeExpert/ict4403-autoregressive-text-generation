@@ -1,0 +1,9 @@
+{
+  "name": "add-one train unigram",
+  "loss": 5.251614918506896,
+  "perplexity": 190.87426608094702,
+  "accuracy": 0.08670664667666167,
+  "known_word_accuracy": 0.0997413049726933,
+  "unk_target_fraction": 0.1306846576711644,
+  "examples": 4002
+}

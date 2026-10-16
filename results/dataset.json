@@ -1,0 +1,56 @@
+{
+  "source": "https://www.gutenberg.org/ebooks/11",
+  "download": "https://www.gutenberg.org/ebooks/11.txt.utf-8",
+  "sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+  "vocabulary_size_including_unk": 1167,
+  "min_frequency": 2,
+  "total_word_tokens": 26615,
+  "train_raw_unique_words": 2132,
+  "splits": {
+    "train": {
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "word_tokens": 18235,
+      "examples": 18107,
+      "unique_words": 2132,
+      "oov_word_fraction": 0.05297504798464491,
+      "unk_target_fraction": 0.053128622472286224
+    },
+    "validation": {
+      "chapters": [
+        9,
+        10
+      ],
+      "word_tokens": 4346,
+      "examples": 4314,
+      "unique_words": 923,
+      "oov_word_fraction": 0.1631385181776346,
+      "unk_target_fraction": 0.1634214222431183
+    },
+    "test": {
+      "chapters": [
+        11,
+        12
+      ],
+      "word_tokens": 4034,
+      "examples": 4002,
+      "unique_words": 894,
+      "oov_word_fraction": 0.13063956370847793,
+      "unk_target_fraction": 0.13068465888500214
+    }
+  },
+  "context_length": 16,
+  "tokenization": "NFKC; lowercase; curly apostrophe to ASCII; [a-z]+(?:'[a-z]+)*; no punctuation or digits",
+  "prompts": [
+    "alice was beginning to get very tired of sitting by her sister on the bank and",
+    "curiouser and curiouser cried alice she was so much surprised that for the moment she quite"
+  ]
+}

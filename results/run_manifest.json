@@ -1,0 +1,65 @@
+{
+  "status": "COMPLETE",
+  "started_utc": "2026-10-16T16:29:45.958257+00:00",
+  "config": {
+    "models": [
+      "rnn",
+      "birnn",
+      "lstm",
+      "gru"
+    ],
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "epochs": 18,
+    "context_length": 16,
+    "min_frequency": 2,
+    "embedding_dim": 64,
+    "representation_dim": 96,
+    "dropout": 0.15,
+    "batch_size": 128,
+    "learning_rate": 0.002,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "threads": 4,
+    "device": "cpu",
+    "temperatures": [
+      0.5,
+      1.0,
+      1.5
+    ],
+    "sampling_seeds": [
+      101,
+      202,
+      303
+    ],
+    "generation_words": 60
+  },
+  "source_sha256": {
+    "src/__init__.py": "2cdd4f68250419f1d87cc50103010b866e7d3e72f4e039545a4b07fa805879a0",
+    "src/data.py": "f3197402689c5476f5347ec2cae89881fc91600677f3fd3248011f17509e9696",
+    "src/generate.py": "9f6c57105abfac62f723e778c35c890a3fb30bb59bea3951b44af6366701ba06",
+    "src/metrics.py": "c3aa060d9f6b480058d1c51b5cc66189972c23495f1f60ab6fb5171b9d0e89b6",
+    "src/models.py": "cdb8cb7e0a6b18219a03de4395cbd2c350e0e6ed9a0d577076e75c8dbf707869",
+    "src/run.py": "4b64532cd68aded8e1d5f9328efb99dbee0ca78f60daeeadd99f26a4532d0fd6",
+    "configs/experiment.json": "b6063bc6a00fbdd04bb27c6117f290189130994e2a1fa50b3117d913cdd34e9d"
+  },
+  "environment": {
+    "python": "3.12.0 (v3.12.0:0fb18b02c8, Oct  2 2023, 09:45:56) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "torch": "2.9.0",
+    "numpy": "2.3.3",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "processor": "arm",
+    "device": "cpu",
+    "threads": 4,
+    "mps_available": false
+  },
+  "selection": "Lowest validation loss checkpoint within each run; model ranking by mean validation loss; primary generation seed is first configured training seed.",
+  "finished_utc": "2026-10-16T16:35:09.108909+00:00",
+  "total_wall_seconds": 323.1960844580026,
+  "best_model_by_validation": "lstm",
+  "completed_runs": 12,
+  "generated_samples": 72
+}

@@ -1,0 +1,19 @@
+{
+  "models": ["rnn", "birnn", "lstm", "gru"],
+  "seeds": [17, 29, 43],
+  "epochs": 18,
+  "context_length": 16,
+  "min_frequency": 2,
+  "embedding_dim": 64,
+  "representation_dim": 96,
+  "dropout": 0.15,
+  "batch_size": 128,
+  "learning_rate": 0.002,
+  "weight_decay": 0.0001,
+  "gradient_clip": 1.0,
+  "threads": 4,
+  "device": "cpu",
+  "temperatures": [0.5, 1.0, 1.5],
+  "sampling_seeds": [101, 202, 303],
+  "generation_words": 60
+}

@@ -1,0 +1,13 @@
+test_all_encoders_predict_one_word_from_observed_window (test_pipeline.PipelineTests.test_all_encoders_predict_one_word_from_observed_window) ... ok
+test_bidirectional_representation_uses_both_final_hidden_states (test_pipeline.PipelineTests.test_bidirectional_representation_uses_both_final_hidden_states) ... ok
+test_inputs_end_before_targets_and_have_fixed_length (test_pipeline.PipelineTests.test_inputs_end_before_targets_and_have_fixed_length) ... ok
+test_perplexity_uses_token_weighted_mean_nll (test_pipeline.PipelineTests.test_perplexity_uses_token_weighted_mean_nll) ... ok
+test_sampling_reproducible_and_rejects_invalid_input (test_pipeline.PipelineTests.test_sampling_reproducible_and_rejects_invalid_input) ... ok
+test_splits_have_disjoint_source_positions (test_pipeline.PipelineTests.test_splits_have_disjoint_source_positions) ... ok
+test_vocabulary_is_train_only (test_pipeline.PipelineTests.test_vocabulary_is_train_only) ... ok
+test_word_tokenization (test_pipeline.PipelineTests.test_word_tokenization) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.211s
+
+OK
