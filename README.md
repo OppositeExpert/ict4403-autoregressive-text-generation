@@ -151,7 +151,7 @@ tools/build_submission.py    Report builder; personal fields supplied as argumen
 MANIFEST.sha256              Project-file integrity manifest
 ```
 
-The locally delivered Word/PDF submission includes the student's name and registration number, assignment and system titles, dataset/source link and this GitHub link. Personal registration details are kept in the local submission package. Submit the final PDF to the specified LMS section; LMS upload has not been performed and the supplied rubric does not state a deadline.
+The locally delivered Word/PDF submission includes the student's name and registration number, assignment and system titles, dataset/source link and this GitHub link. Personal registration details are kept in the local submission package. The final PDF has been submitted to the ICT4403 IA2 assignment in LMS. The confirmation receipt is retained in the updated local delivery package.
 
 To rebuild the Word report, install `requirements-report.txt` and run `python tools/build_submission.py --name "Your Name" --registration YOUR_REGISTRATION`. Export the resulting document to PDF with Word or LibreOffice. Personal fields are supplied locally as arguments and are not hardcoded in the report builder. The delivered PDF was exported from the DOCX with LibreOffice and its rendered pages were visually checked.
 

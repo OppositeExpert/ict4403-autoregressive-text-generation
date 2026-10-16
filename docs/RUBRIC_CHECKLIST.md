@@ -20,6 +20,6 @@ Authority: the supplied two-page `ICT 4403 Take Home Assignment - Generative AI.
 | Relevant GitHub repository and accessible files | Public repository at https://github.com/OppositeExpert/ict4403-autoregressive-text-generation; uploaded commit and integrity verification recorded in local delivery receipt | Complete |
 | Word document named using name and registration number, containing six required fields | Local `submission/` document with the student's name and registration number in its filename; literal template-name copy also supplied; all six fields and hyperlinks verified | Complete |
 | Convert Word document to PDF | Seven-page PDF exported from the final DOCX with LibreOffice; every rendered page inspected; DOCX integrity and required-field checks pass | Complete |
-| Upload final PDF to the LMS assignment section before the deadline | User action required; LMS destination and deadline were not supplied in the rubric or current chat | Outstanding |
+| Upload final PDF to the LMS assignment section before the deadline | LMS confirms successful submission to ICT4403 IA2; confirmation and exact submitted file are recorded in the local delivery receipt | Complete |
 
 The report and registration number are distributed in the local delivery package; the public code repository contains the reproducible project and aggregate evidence. The rubric requires uploading code/results to GitHub and sharing its link in the submission document; it does not require publishing personal registration details.
